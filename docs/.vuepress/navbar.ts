@@ -36,6 +36,7 @@ export default navbar([
 				text: "Введення в С#",
 				icon: "lightbulb",
 				prefix: "theory1/",
+				link: "#",
 				children: [{ text: "Тема 1. Мова C# і платформа .NET", link: "topic1.md" }]
 			},
 		]
