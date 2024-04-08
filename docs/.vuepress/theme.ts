@@ -37,7 +37,7 @@ export default hopeTheme({
 	// 	editLink: "Edit this page on GitHub",
 	// },
 
-	plugins: {
+	//plugins: {
 		// You should generate and use your own comment service
 		// comment: {
 		// 	provider: "Giscus",
@@ -52,34 +52,34 @@ export default hopeTheme({
 		// },
 
 		// All features are enabled for demo, only preserve features you need here
-		mdEnhance: {
-			align: true,
-			attrs: true,
-			codetabs: true,
-			component: true,
-			demo: true,
-			figure: true,
-			imgLazyload: true,
-			imgSize: true,
-			include: true,
-			mark: true,
-			stylize: [
-				{
-					matcher: "Recommended",
-					replacer: ({ tag }) => {
-						if (tag === "em")
-							return {
-								tag: "Badge",
-								attrs: { type: "tip" },
-								content: "Recommended",
-							};
-					},
-				},
-			],
-			sub: true,
-			sup: true,
-			tabs: true,
-			vPre: true,
+		// mdEnhance: {
+		// 	align: true,
+		// 	attrs: true,
+		// 	codetabs: true,
+		// 	component: true,
+		// 	demo: true,
+		// 	figure: true,
+		// 	imgLazyload: true,
+		// 	imgSize: true,
+		// 	include: true,
+		// 	mark: true,
+		// 	stylize: [
+		// 		{
+		// 			matcher: "Recommended",
+		// 			replacer: ({ tag }) => {
+		// 				if (tag === "em")
+		// 					return {
+		// 						tag: "Badge",
+		// 						attrs: { type: "tip" },
+		// 						content: "Recommended",
+		// 					};
+		// 			},
+		// 		},
+		// 	],
+		// 	sub: true,
+		// 	sup: true,
+		// 	tabs: true,
+		// 	vPre: true,
 
 			// install chart.js before enabling it
 			// chart: true,
@@ -118,7 +118,7 @@ export default hopeTheme({
 
 			// install sandpack-vue3 before enabling it
 			// sandpack: true,
-		},
+		//},
 
 		// install @vuepress/plugin-pwa and uncomment these if you want a PWA
 		// pwa: {
@@ -176,5 +176,6 @@ export default hopeTheme({
 		//     ],
 		//   },
 		// },
-	},
-});
+	//},
+}
+);

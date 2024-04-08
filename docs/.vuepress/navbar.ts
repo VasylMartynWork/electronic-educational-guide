@@ -2,43 +2,123 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
 	"/",
-	"/demo/",
-	{
-		text: "Guide",
-		icon: "lightbulb",
-		prefix: "/guide/",
-		children: [
-			{
-				text: "Bar",
-				icon: "lightbulb",
-				prefix: "bar/",
-				children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-			},
-			{
-				text: "Foo",
-				icon: "lightbulb",
-				prefix: "foo/",
-				children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-			},
-		],
-	},
-	{
-		text: "V2 Docs",
-		icon: "book",
-		link: "https://theme-hope.vuejs.press/",
-	},
 	{
 		text: "Теорія",
 		icon: "book",
-		prefix: "theory/",
+		prefix: "/theory/",
 		children: [
 			{
-				text: "Введення в С#",
+				text: "Розділ1. Введення в С#",
 				icon: "lightbulb",
 				prefix: "theory1/",
-				link: "#",
-				children: [{ text: "Тема 1. Мова C# і платформа .NET", link: "topic1.md" }]
+				children: [
+					{
+						text: "Опис розділу",
+						link: "#"
+					},
+					{
+						text: "Тема 1. Мова С# та платформа .NET",
+						link: "topic1.md"
+					},
+				]
 			},
+			{
+				text: "Розділ 2. Основи синтаксису мови C#",
+				icon: "lightbulb",
+				prefix: "theory2/",
+				children: [
+					{
+						text: "Опис розділу",
+						link: "#"
+					},
+					{
+						text: "Тема 1. Структура програми",
+						link: "topic1.md"
+					},
+					{
+						text: "Тема 2. Змінні та константи",
+						link: "topic2.md"
+					},
+					{
+						text: "Тема 3. Літерали",
+						link: "topic3.md"
+					},
+					{
+						text: "Тема 4. Типи даних",
+						link: "topic4.md"
+					},
+					{
+						text: "Тема 5. Консольний ввід-вивід",
+						link: "topic5.md"
+					},
+					{
+						text: "Тема 6. Арифметичні операції",
+						link: "topic6.md"
+					},
+					{
+						text: "Тема 7. Операції присвоєння",
+						link: "topic7.md"
+					},
+					{
+						text: "Тема 8. Умовні вирази",
+						link: "topic8.md"
+					},
+					{
+						text: "Тема 9. Конструкція if...else та тернарна операція",
+						link: "topic9.md"
+					},
+					{
+						text: "Тема 10. Цикли",
+						link: "topic10.md"
+					},
+					{
+						text: "Тема 11. Масиви",
+						link: "topic11.md"
+					},
+					{
+						text: "Тема 12. Методи",
+						link: "topic12.md"
+					},
+					{
+						text: "Тема 13. Параметри методів",
+						link: "topic13.md"
+					},
+					{
+						text: "Тема 14. Повертання значення та оператор return",
+						link: "topic14.md"
+					},
+					{
+						text: "Тема 15. Конструкція switch",
+						link: "topic15.md"
+					},
+					{
+						text: "Тема 16. Перечислення enum",
+						link: "topic16.md"
+					}
+				]
+			}
+		]
+	},
+	{
+		text: "Практичні роботи",
+		icon: "pen",
+		prefix: "/practicew/",
+		children: [
+			{
+				text: "Практична робота №1",
+				link: "pw1"
+			}
+		]
+	},
+	{
+		text: "Домашні роботи",
+		icon: "home",
+		prefix: "/homew/",
+		children: [
+			{
+				text: "Домашня робота №1",
+				link: "hw1"
+			}
 		]
 	}
 ]);
