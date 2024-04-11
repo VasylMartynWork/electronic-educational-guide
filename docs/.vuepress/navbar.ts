@@ -86,14 +86,6 @@ export default navbar([
 					{
 						text: "Тема 14. Повертання значення та оператор return",
 						link: "topic14.md"
-					},
-					{
-						text: "Тема 15. Конструкція switch",
-						link: "topic15.md"
-					},
-					{
-						text: "Тема 16. Перечислення enum",
-						link: "topic16.md"
 					}
 				]
 			}
@@ -107,6 +99,18 @@ export default navbar([
 			{
 				text: "Практична робота №1",
 				link: "pw1"
+			},
+			{
+				text: "Практична робота №2",
+				link: "pw2"
+			},
+			{
+				text: "Практична робота №3",
+				link: "pw3"
+			},
+			{
+				text: "Практична робота №4",
+				link: "pw4"
 			}
 		]
 	},
@@ -118,6 +122,18 @@ export default navbar([
 			{
 				text: "Домашня робота №1",
 				link: "hw1"
+			},
+			{
+				text: "Домашня робота №2",
+				link: "hw2"
+			},
+			{
+				text: "Домашня робота №3",
+				link: "hw3"
+			},
+			{
+				text: "Домашня робота №4",
+				link: "hw4"
 			}
 		]
 	}

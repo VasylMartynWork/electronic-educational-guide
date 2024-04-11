@@ -6,7 +6,7 @@ export default defineUserConfig({
 
 	lang: "en-US",
 	title: "Основи програмування мовою C#",
-	description: "A docs demo for vuepress-theme-hope",
+	description: "Електронний довідник для мови C#",
 
 	theme,
 
